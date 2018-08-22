@@ -24,4 +24,4 @@ with open("/home/neo/10kWords/README.md",'w') as f:
         filename = date.strftime('%m_%d')+".md"
         if filename in filelist:
             text = date.strftime("[%b. %d]")
-            f.write(text+"(\\"+filename+")"+"\n")
+            f.write(text+"(\\"+filename+")"+"\n\n")
