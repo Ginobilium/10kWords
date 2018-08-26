@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /bin/zsh
 git pull
 python /home/neo/10kWords/temp.py
 git add README.md
